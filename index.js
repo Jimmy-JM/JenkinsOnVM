@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('엠피엠 인스톨');
+    res.send('노드.제이에스 추가');
 });
 
 app.get('/start', function(req, res){
