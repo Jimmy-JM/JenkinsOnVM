@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like Jongmin');
+    res.send('엠피엠 인스톨');
 });
 
 app.get('/start', function(req, res){
